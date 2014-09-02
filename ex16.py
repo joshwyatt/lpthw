@@ -25,7 +25,9 @@ line3 = raw_input("line 3: ")
 
 print "I'm going to write these to the file."
 
-target.write(formatter) % (line1, line1, line2, line1, line3, line1)
+stuff_to_write = formatter % (line1, newline, line2, newline, line3, newline)
+
+target.write(stuff_to_write)
 
 print "And now close it"
 target.close()
