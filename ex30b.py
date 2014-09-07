@@ -9,3 +9,6 @@ class Person(object):
 josh_wyatt = Person('Josh')
 
 josh_wyatt.say_my_name()
+
+bonnie_chan = Person('bonnie')
+bonnie_chan.say_my_name()
